@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title> Project </title>
+<!--Bailey Breeze CSCE 102 section 15, 1/18/2023-->
+</head>
+<body>
+<div id="content">
+<header>
+<h1> Bailey Breeze </h1>
+</header>
+<nav id="main-nav">
+<ul>
+<li><a href="index.html"> Home</a> </li>
+<li> <a href="quiz.html"> Quiz</a> </li>
+<li><a href="contact.html"> Contact Me</a> </li>
+</ul>
+</nav>
+<main>
+<p>
+	<label for "q-one"> Which HTML tag does not have a closing tag</label>
+	<select id ="q-one">
+	<option value="correct">img</option>
+	<option value="incorrect"> p</option>
+	<option value="incorrect"> li</option>
+	<option value="incorrect">h3</option>
+	</select>
+</p>
+<p>
+	<label for "q-two"> Why use a id name instead of a class name?</label>
+	<select id ="q-two">
+	<option value="incorrect"> id can be reused and class cannot</option>
+	<option value="correct">so it can be accessed specifically</option>
+	<option value="incorrect"> so a group of elements can be accessed</option>
+	<option value="incorrect"> no reason</option>
+	</select>
+</p>
+<p>
+	<label for "q-three"> How do you get columns using CSS?</label>
+	<select id ="q-three">
+	<option value="incorrect"> display:none;</option>
+	<option value="incorrect">display column;</option>
+	<option value="correct">display:flex;</option>
+	<option value="incorrect">display:block;</option>
+	</select>
+</p>
+<p>
+	<label for "q-four"> What is the diference between an input function and a select?</label>
+	<select id ="q-four">
+	<option value="incorrect"> Input you choose from a menu of options and select you type an answer into a text box</option>
+	<option value="correct">Input you type an answer in a text box and select you pick from a menu of options</option>
+	<option value="incorrect">there is no difference</option>
+	<option value="incorrect"> Select is input text type</option>
+	</select>
+</p>
+<button id="submit" onClick="submitQuiz()"> Submit </button>
+<div id="quiz-results" class="hidden">
+<h3> Quiz Results </h3>
+<p id="one"> </p>
+<p id="two"> </p>
+<p id="three"> </p>
+<p id="four"> </p>
+<p id="score"> </p>
+</div>
+</main>
+<footer>
+<p> &copy; Bailey Breeze </p>
+</footer>
+</div>
+
+<script src= "script.js"></script>
+</body>
+</html>
